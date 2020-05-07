@@ -29,10 +29,8 @@ def MakeDecision(a,b):
             return "Tie"
     else:
         return -1
-# End of Answer
 
-# Below is Execution Example, and can be removed.
-
+### 이 아래 부터는 제가 만든 코드가 아닌 
 userInput = 0
 while True:
     userInput = int(input("\nMenu: \n[0] scissor, \n[1] rock, \n[2] paper, \n[3] quit \n\nSelect: "))
